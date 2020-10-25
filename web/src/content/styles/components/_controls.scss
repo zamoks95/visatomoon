@@ -1,0 +1,72 @@
+.controls {
+    background: $component-base-color;
+    width: 100%;
+    padding: $gap * 4;
+    &__progress {
+        &__bar {
+            display: block;
+            height: 4px;
+            width: 100%;
+            background: $primary-color;
+            overflow: hidden;
+            position: relative;
+            &__progress {
+                transition: width 250ms ease-in;
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                background-color: $secondary-color;
+            }
+        }
+    }
+    &__action {
+        margin-top: $gap * 4;
+        display: flex;
+        justify-content: space-between;
+        &__button {
+            color: $primary-color;
+            background: none;
+            border: none;
+            font-size: 1em;
+            padding: 0;
+            cursor: not-allowed;
+            pointer-events: none;
+            font-family: $merriweather;
+            transition: color 125ms ease-in-out;
+            position: relative;
+            &::after {
+                transition: 125ms ease-in-out;
+                opacity: 1;
+                content: "";
+                width: 125%;
+                height: 4px;
+                background: $secondary-color;
+                position: absolute;
+                left: -12.5%;
+                top: 12px;
+                transform: rotate(0deg);
+            }
+            &:focus {
+                outline: 0;
+            }
+            &.active {
+                &::after {
+                    opacity: 0;
+                    width: 0%;
+                    transform: rotate(90deg);
+                }
+                color: $primary-color;
+                cursor: pointer;
+                pointer-events: all;
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+    @media (min-width: $break-md) {
+        display: flex;
+        flex-direction: column;
+    }
+}

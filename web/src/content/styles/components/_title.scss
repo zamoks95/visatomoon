@@ -1,0 +1,12 @@
+.title {
+    margin: $gap;
+    font-size: 2.7em;
+    font-family: $montserrat;
+    font-weight: bold;    
+    letter-spacing: -4px;
+    @media (min-width: $break-md) {
+        width: 430px;
+        font-size: 4.3em;
+        line-height: 0.75em;
+    }
+}

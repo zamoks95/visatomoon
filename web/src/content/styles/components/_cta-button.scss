@@ -1,0 +1,23 @@
+.cta-button {
+    background: $active-color;
+    padding: $gap * 1.5 $gap;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    border: 1px solid darken($active-color, 35%);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    &__content {
+        height: 25px;
+        overflow: hidden;
+        display: block;
+        font-style: italic;
+        font-size: 1.3em;
+        font-family: $merriweather;
+        font-weight: bold;
+        color: $primary-color;
+    }
+    @media (min-width: $break-md) {
+        max-width: 230px;
+    }
+}

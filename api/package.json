@@ -1,0 +1,14 @@
+{
+    "name": "apileadtechfrontest",
+    "version": "1.0.0",
+    "description": "This is an API to feed leadtech-frontest",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sergi Zamora <sergi.zamora.95@gmail.com>",
+    "licensce": "MIT",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

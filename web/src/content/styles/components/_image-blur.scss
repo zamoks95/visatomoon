@@ -1,0 +1,12 @@
+.image{
+    &__loading{
+        background: $component-base-color;
+        filter: blur(10px);
+        transition: all 0ms ease-in-out;
+        opacity: 0.1;
+    }
+    &__loaded{
+        opacity: 1;
+        transition: all 250ms ease-in-out;
+    }
+}

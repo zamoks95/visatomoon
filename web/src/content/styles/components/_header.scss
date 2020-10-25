@@ -1,0 +1,18 @@
+.header {
+    height: $gap * 4;
+    padding: $gap * 4 0px 0px 0px;
+    &__logo {
+        margin: 0 auto;
+        display: block;
+        width: $gap * 8;
+    }
+    @media (min-width: $break-md) {
+    height: auto;
+        &__logo {
+            width: $gap * 15;
+            height: $gap * 15;
+            display: block;
+
+        }
+    }
+}
