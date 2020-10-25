@@ -2,13 +2,21 @@
 
 In this repository you will find the project **Visa to the Moon**
 
+You can find a README.md at each folder containing [Web Documentation](
+https://github.com/zamoks95/visatomoon/blob/main/web/README.md) and [API Documentation](
+https://github.com/zamoks95/visatomoon/blob/main/api/README.md)
+
+
+
+
+
 ---
 
 ## Start Project
 
 There are two ways to start this project
 
-### Easy Way: Docker
+### 🐳 Easy Way: Docker
 
 Clone this repository and locate inside it
 
@@ -23,7 +31,7 @@ Start docker-compose services
 Using a web browser.. navigate to [localhost:8000](http://localhost:8000)
 
 
-### Not such easy way: Install Locally
+### 🔨 Not such easy way: Install Locally
 
 Clone this repository and locate inside it
 
