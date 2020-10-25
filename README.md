@@ -1,32 +1,29 @@
 # Visa to the Moon
 
-In this repository you will find the project **Visa to the Moon**
+In this repository, you will find the project **Visa to the Moon**
 
-You can find a README.md at each folder containing [Web Documentation](
-https://github.com/zamoks95/visatomoon/blob/main/web/README.md) and [API Documentation](
+You can find a *README.md* at each folder containing [Web DocumentationS](
+https://github.com/zamoks95/visatomoon/blob/main/web/README.md) and [API DocumentationS](
 https://github.com/zamoks95/visatomoon/blob/main/api/README.md)
-
-
-
-
 
 ---
 
-## Start Project
+# Start Project
 
 There are two ways to start this project
 
-### 🐳 Easy Way: Docker
+### 🐳 Easy Way: using Docker
 
-Clone this repository and locate inside it
+Clone this repository using a terminal and locate inside the folder in which `docker-compose.yml` is saved and start the docker service:
 
-```git clone https://github.com/zamoks95/visatomoon.git```
+```
+git clone https://github.com/zamoks95/visatomoon.git
 
-```cd visatomoon```
+cd visatomoon
 
-Start docker-compose services
+docker-compose up
 
-```docker-compose up```
+```
 
 Using a web browser.. navigate to [localhost:8000](http://localhost:8000)
 
@@ -39,7 +36,7 @@ Clone this repository and locate inside it
 
 ```cd visatomoon```
 
-#### Start API service.
+#### Start API service
 
 ```cd api```
 
@@ -47,13 +44,12 @@ Install dependencies
 
 ```npm install``` or ```yarn install```
 
-Start the API
+Start the API Service
 
 ```node index.js```
 
-Now the API is running at ```localhost:3003```,
-we can test it navigating to [/assets/images/logo.png](http://localhost:3003/assets/images/logo.png)
-
+Now the API is listening at ```localhost:3003```,
+we can test that everything is working properly navigating to [/assets/images/logo.png](http://localhost:3003/assets/images/logo.png)
 
 #### Start Web Service
 
@@ -63,7 +59,7 @@ Install dependencies
 
 ```npm install``` or ```yarn install```
 
-Start the web server
+Start the Web Server
 
 ```npm start``` or ```yarn start```
 
