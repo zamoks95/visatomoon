@@ -20,4 +20,17 @@
     @media (min-width: $break-md) {
         max-width: 230px;
     }
+    @media (min-width: $break-lg){
+        position: relative;
+        background: linear-gradient(90deg, $active-color 0%, $active-color 50%, darken($active-color, 35%) 100%);
+        background-size: 200%;
+        transition: 125ms all ease-in-out;
+        &:hover {
+            transform-origin: center;
+            transform: scale(1.025) rotateY(10deg);
+            box-shadow: -8px 4px 5px 3px rgba(0, 0, 0, 0.5);
+            background-position-x: 100%;
+        }
+    }
+    
 }
