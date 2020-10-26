@@ -6,7 +6,7 @@ You can find a *README.md* at each folder containing [Web DocumentationS](
 https://github.com/zamoks95/visatomoon/blob/main/web/README.md) and [API DocumentationS](
 https://github.com/zamoks95/visatomoon/blob/main/api/README.md)
 
-Also, you can check (this video)[https://youtu.be/svO95wQ_zjs] to see how to start this project.
+Also, you can check [this video]https://youtu.be/svO95wQ_zjs) to see how to start this project.
 
 ---
 
